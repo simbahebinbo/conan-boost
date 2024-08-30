@@ -1,7 +1,4 @@
-
-#include <boost/asio/io_service.hpp>
-#include <boost/asio/ip/tcp.hpp>
-#include <boost/asio/ip/host_name.hpp>
+#include <boost/asio.hpp>
 #include <iostream>
 
 using namespace boost::asio;
@@ -20,3 +17,4 @@ int main() {
   }
   ioservice.run();
 }
+
